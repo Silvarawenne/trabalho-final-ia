@@ -13,11 +13,6 @@ Curso de Sistemas de Informação · Disciplina de Inteligência Artificial
 - Pedro Paulo Alves dos Santos Nunes
 - Eduardo Nobre Nogueira de Oliveira
 
-## Relatório
-O relatório completo (artigo científico) está disponível em: [LINK DO PDF]
-
----
-
 ## Sobre o projeto
 Classificação multiclasse (9 classes) de tecidos histopatológicos de câncer
 colorretal usando o dataset PathMNIST 224×224 (coleção MedMNIST v2). O trabalho
@@ -43,19 +38,33 @@ com foco em rigor experimental e interpretabilidade (Explainable AI).
 ## Estrutura do repositório
 
 trabalho-final-ia/
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── notebooks/
+
 │   ├── 01_numpy_mlp.ipynb          # MLP do zero + gradient checking
+
 │   ├── 02_pytorch_validation.ipynb # Equivalência PyTorch + pipeline 224x224
+
 │   ├── 03_cnns_and_vit.ipynb       # CNN própria, 3 CNNs pré-treinadas, ViT
+
 │   ├── 04_xai.ipynb                # Feature Maps, Grad-CAM, Integrated Gradients
+
 │   └── 05_final_model.ipynb        # Avaliação final no teste + matriz de confusão
+
 ├── experiments/
+
 │   ├── results.csv                 # Resultados de todos os modelos
+
 │   └── results_grid.csv            # Busca de hiperparâmetros
+
 ├── figures/                        # Visualizações do relatório
+
 └── report/
+
 └── relatorio.pdf
 
 ## Como rodar
