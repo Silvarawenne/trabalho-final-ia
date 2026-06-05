@@ -84,7 +84,7 @@ trabalho-final-ia/
   mapeada (`np.load(..., mmap_mode='r')`) para evitar estouro de RAM.
 
 ## Checkpoints dos modelos
-Os pesos treinados (.pth) estão disponíveis em: [LINK GOOGLE DRIVE]
+Os pesos treinados (.pth) estão disponíveis em: https://drive.google.com/drive/folders/1RFSViTbs6GTBEjaueRp9cNQKYQNPHVg6?usp=drive_link
 
 ## Declaração de uso de IA generativa
 Conforme a política da disciplina, declaramos o uso do assistente Claude
